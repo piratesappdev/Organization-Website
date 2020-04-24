@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pirate's AppDev</title>
+  </head>
+  <body>
+    <section id="mainMenu">
+      <ul>
+        <li>apps</li>
+        <li>team</li>
+        <li>sponsors</li>
+        <li>apply</li>
+        <li>lectures</li>
+      </ul>
+    </section>
+    <section id="body">
+      <h1>
+        To innovate, motivate, and impact the next generation with ideas through
+        app development.
+      </h1>
+      <p>
+        This is filler content. Our 50 members take on various roles surrounding
+        product development, beginning with an initial product vision and design,
+        through engineering development, consistent iteration, and ultimately
+        bringing a functional product to market. Our collaboration leads to
+        stunning products that solve real problems for members of the Cornell
+        and greater Ithaca community. To encourage others who share a similar
+        passion, we also teach introductory courses every semester in app
+        development. AppDev was the first to pioneer student-led courses at
+        Cornell and now over 300 students enroll our courses every semester.
+      </p>
+    </section>
+    <section id="socials">
+      <li>Facebook</li>
+      <li>Twitter</li>
+      <li>YouTube</li>
+    </section>
+  </body>
+</html>
