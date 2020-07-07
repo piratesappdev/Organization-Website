@@ -1,11 +1,49 @@
-h1 {
+
+//Programmer Defined Classes
+main menu {
   font-family: Arial;
+  text-align: center;
+  font-size: 1.2em;
+  font-color: white;
+  background-color: dark blue;
+  
+}
+
+socials {
+  font-family: Arial;
+  text-align: center;
+  font-size: 1.2em;
+  font-color: white;
+  background-color: dark blue;  
+}
+
+body {
+  font-family: Arial;
+  text-align: left;
+  font-size: 1.2em;
+  font-color: dark blue;
+  background-color: white;
+}
+
+
+//Pre-defined Classes
+h1 {
+  font-family: Verdana;
+  text-align: center;
+  font-size: 2em;
+  font-color: dark blue;
 }
 
 h2 {
-  font-family: Arial;
+  font-family: Verdana;
+  text-align: center;
+  font-size: 1.6em;
+  font-color: dark blue;
 }
 
 h3 {
-  font-family: Arial;
+  font-family: Verdana;
+  text-align: left;
+  font-size: 1.4em;
+  font-color: dark blue;
 }
