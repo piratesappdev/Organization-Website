@@ -1,0 +1,129 @@
+body {
+ 
+  font-family: Arial;
+  text-align: left;
+  font-size: 1.2em;
+  color: white;
+  background-color: #012967;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 9vh;
+}
+
+.logo {
+	color: white;
+	padding-inline-start: 10px;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+  width: 30%;
+  list-style: none; 
+}
+
+nav li {
+	list-style: none;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding-inline-end: 20px;
+}
+
+nav a:hover {
+	color: grey;
+}
+
+.title {
+  font-size: 3em; 
+  margin-top: -200px; 
+}
+
+.date {
+  margin-top: -50px; 
+  
+}
+
+section {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: 100vh; 
+  font-family: sans-serif; 
+  box-sizing: border-box; 
+  padding: 200px; 
+
+}
+
+#mission-title {
+  position: relative; top: -50px; 
+}
+
+#mission {
+  font-style: italic;
+  font-size:1.2em;  
+  position: relative; top: -40px; 
+}
+
+
+/*Programmer Defined Classes*/
+#mainMenu {
+  font-family: Arial;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+}
+
+
+socials {
+  font-family: Arial;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  background-color: dark blue;  
+}
+
+/*Pre-defined Classes*/
+h1 {
+  font-family: Verdana;
+  text-align: left;
+  font-size: 2em;
+  color: white;
+}
+
+h2 {
+  font-family: Verdana;
+  text-align: center;
+  font-size: 1.6em;
+  color: dark blue;
+}
+
+h3 {
+  font-family: Verdana;
+  text-align: left;
+  font-size: 1.4em;
+  color: dark blue;
+}
+
+footer {
+  height: 50px;
+  margin-top: -50px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5em;
+  background-color:rgb(40, 40, 41) ;
+  color: white;
+  text-align: center;
+}
+
