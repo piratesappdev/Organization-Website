@@ -3,8 +3,7 @@ body {
   font-family: Arial;
   text-align: left;
   font-size: 1.2em;
-  color: white;
-  background-color: #012967;
+
 }
 
 nav {
@@ -15,7 +14,7 @@ nav {
 }
 
 .logo {
-	color: white;
+	color: black;
 	padding-inline-start: 10px;
 }
 
@@ -27,19 +26,16 @@ nav {
 }
 
 nav li {
-	list-style: none;
+  list-style: none;
+  color: red; 
 }
 
 nav a {
-	color: white;
+	color: black;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 14px;
 	padding-inline-end: 20px;
-}
-
-nav a:hover {
-	color: grey;
 }
 
 .title {
@@ -80,7 +76,7 @@ section {
   font-family: Arial;
   text-align: center;
   font-size: 1.2em;
-  color: white;
+  color: black;
 }
 
 
@@ -97,7 +93,7 @@ h1 {
   font-family: Verdana;
   text-align: left;
   font-size: 2em;
-  color: white;
+  color: black;
 }
 
 h2 {
@@ -114,9 +110,10 @@ h3 {
   color: dark blue;
 }
 
-footer {
+/*footer {
   height: 50px;
   margin-top: -50px;
+  padding-top: 30px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -125,5 +122,5 @@ footer {
   background-color:rgb(40, 40, 41) ;
   color: white;
   text-align: center;
-}
+}*/
 
