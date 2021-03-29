@@ -1,37 +1,39 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+
 body {
  
-  font-family: Arial;
-  text-align: left;
-  font-size: 1.2em;
-  color: white;
-  background-color: #012967;
+  /*font-family: Arial;*/
+  /*text-align: left;*/
+  /*font-size: 1.2em;*/
+
 }
 
+/*Navigation Bar
 nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	min-height: 9vh;
+  min-height: 9vh;
 }
 
-.logo {
-	color: white;
-	padding-inline-start: 10px;
-}
+
 
 .nav-links {
-	display: flex;
+    
+    display: flex;
 	justify-content: space-around;
-  width: 30%;
-  list-style: none; 
+    width: 30%;
+    list-style: none; 
+        
 }
 
 nav li {
-	list-style: none;
+  list-style: none;
+  text-align: right; 
 }
 
 nav a {
-	color: white;
+	color: black;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 14px;
@@ -39,22 +41,21 @@ nav a {
 }
 
 nav a:hover {
-	color: grey;
-}
+    color: #131875;
+    text-decoration: none; 
+}*/
+
+
+
 
 .title {
   font-size: 3em; 
   margin-top: -200px; 
 }
 
-.date {
-  margin-top: -50px; 
-  
-}
-
 section {
   position: absolute; 
-  top: 0; 
+  padding-top: -100px; 
   left: 0; 
   width: 100%;
   height: 100vh; 
@@ -65,39 +66,56 @@ section {
 }
 
 #mission-title {
-  position: relative; top: -50px; 
+  position: relative; top: 70%; 
+  font-size: 2em;
+
 }
 
 #mission {
-  font-style: italic;
   font-size:1.2em;  
-  position: relative; top: -40px; 
+  position: relative; top: 70%; 
+  padding-bottom: 20%; 
+  text-align: left; 
 }
 
 
-/*Programmer Defined Classes*/
+
 #mainMenu {
   font-family: Arial;
   text-align: center;
   font-size: 1.2em;
-  color: white;
+  color: black;
 }
 
 
-socials {
+.navbar-fixed-top.scrolled {
+  background-color: rgb(230, 62, 62) !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+  color:#555;
+}
+
+.bgcolor.scrolled {
+  background-color: green; 
+}
+
+
+/*socials {
   font-family: Arial;
   text-align: center;
   font-size: 1.2em;
   color: white;
   background-color: dark blue;  
-}
+}*/
 
 /*Pre-defined Classes*/
 h1 {
   font-family: Verdana;
   text-align: left;
   font-size: 2em;
-  color: white;
+  color: black;
 }
 
 h2 {
@@ -111,17 +129,22 @@ h3 {
   font-family: Verdana;
   text-align: left;
   font-size: 1.4em;
-  color: dark blue;
 }
 
-footer {
-  height: 50px;
+p {
+  text-align: center; 
+  font-size: 1.2em;
+}
+
+.footer {
+  height: 200px;
   margin-top: -50px;
+  padding-top: 30px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -160%;
   width: 100%;
-  height: 5em;
+ 
   background-color:rgb(40, 40, 41) ;
   color: white;
   text-align: center;
