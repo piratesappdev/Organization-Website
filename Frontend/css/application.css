@@ -1,18 +1,27 @@
-
-body {
-    background-color: white
+.title {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 3.5em;  
+    margin-top: -60px; 
+    color: #707070; 
 }
 
-h1 {
-    color: blue
+section {
+    position: absolute; 
+    left: 0; 
+    width: 100%;
+    font-family: sans-serif; 
+    box-sizing: border-box; 
+    padding: 100px; 
 }
 
 h2 {
+    padding-top: 100px;
     color: blue
 }
 
 form {
-    color:blue
+    color:blue;
 }
 
  

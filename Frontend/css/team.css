@@ -1,10 +1,18 @@
-body{
-   
-}
-h2{
-    color: white
-}
-ul{
-    color: white
+.title {
+    font-weight: bold; 
+    font-size: 3.5em;  
+    margin-top: -60px; 
+    color: #707070; 
+    padding-bottom: 20px; 
 }
 
+section {
+    position: absolute; 
+    left: 0; 
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box; 
+    padding: 100px; 
+    color: #707070; 
+    font-size: 1.3em; 
+}

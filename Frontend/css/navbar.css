@@ -1,15 +1,16 @@
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
-    color: black;
+    color: #1F5B83;
     font-size: 17px; 
     font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: black;
+    color: #1F5B83;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,10 +36,12 @@
   .logo {
       color: black;
       padding-inline-start: 10px;
+      font-weight: bold;
   }
 
   h3 {
-    font-family: Verdana;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size: 1.4em;
+    font-weight: bold; 
   }
