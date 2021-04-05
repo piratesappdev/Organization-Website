@@ -1,18 +1,18 @@
 .title {
     text-align: center;
-    font-weight: bold; 
-    font-size: 3.5em;  
-    margin-top: -60px; 
-    color: #707070; 
+    font-weight: bold;
+    font-size: 3.5em;
+    margin-top: -60px;
+    color: #707070;
 }
 
 section {
-    position: absolute; 
-    left: 0; 
+    position: absolute;
+    left: 0;
     width: 100%;
-    font-family: sans-serif; 
-    box-sizing: border-box; 
-    padding: 100px; 
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 100px;
 }
 
 h2 {
@@ -22,6 +22,35 @@ h2 {
 
 form {
     color:blue;
+    text-align: center;
 }
-
- 
+Name{
+  padding-bottom: 70px;
+}
+Date{
+  padding-bottom: 50px;
+}
+Resume{
+  padding-bottom: 50px;
+}
+team{
+  padding-bottom: 50px;
+}
+major{
+  padding-bottom: 50px;
+}
+grad{
+  padding-bottom: 50px;
+}
+GPA{
+  padding-bottom: 50px;
+}
+prog{
+  padding-bottom: 50px;
+}
+dec{
+  padding-bottom: 50px;
+}
+SUBMIT{
+  padding-bottom: 50px;
+}
