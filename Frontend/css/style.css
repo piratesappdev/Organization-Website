@@ -88,7 +88,7 @@ section {
 
 
 .navbar-fixed-top.scrolled {
-  background-color: rgb(230, 62, 62) !important;
+  background-color: rgba(168, 177, 188, 0.866) !important;
   transition: background-color 200ms linear;
 }
 
