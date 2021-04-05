@@ -25,7 +25,13 @@ form {
     text-align: center;
 }
 Name{
+  color: blue;
   padding-bottom: 70px;
+}
+
+textarea{
+  color:blue;
+  text-align:center;
 }
 Date{
   padding-bottom: 50px;
