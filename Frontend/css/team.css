@@ -16,3 +16,8 @@ section {
     color: #707070; 
     font-size: 1.3em; 
 }
+
+p img {
+    width: 200px;
+    height: 200px;
+}
