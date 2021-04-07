@@ -24,4 +24,9 @@ form {
     color:blue;
 }
 
- 
+.logo {
+    display: block; 
+    
+    margin-right: auto; 
+    margin-left: auto; 
+}
