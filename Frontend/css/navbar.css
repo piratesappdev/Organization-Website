@@ -1,3 +1,9 @@
+/* FADE NAVBAR, ... CONTINUE GRADIENT TO BOTTOM OF PAGE */
+
+
+
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
@@ -45,3 +51,12 @@
     font-size: 1.4em;
     font-weight: bold; 
   }
+/* UNNECCESSARY???
+  .topnav.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .topnav.scrolled .nav-link {
+    color:#555;
+  } */
