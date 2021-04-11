@@ -1,9 +1,15 @@
+
+
 .title {
     font-weight: bold; 
     font-size: 3.5em;  
     margin-top: -60px; 
     color: #707070; 
     padding-bottom: 20px; 
+}
+
+.aT{
+    text-decoration: none;
 }
 
 section {
@@ -40,18 +46,35 @@ section {
 
 .appDescription{
     width: 50vw; 
-    margin-top: 27px;
-    margin-left: 75px;
+    margin: 100px;
+    margin-left: 90gitpx;
+    font-size: medium;
+}
+
+h3{
+    margin-left: 2vw;
 }
 
 .appFace{
     background-color: gray; 
-    border-radius: 2em; 
-    max-height: 210px; 
-    min-height: 210px; 
-    max-width: 210px; 
-    min-width: 210px; 
-    width: 21vw;
+    margin-top: 3vh;
+    border-radius: 1.8em; 
+    display: block;
+    height: 24vh;
+    width: 17vw;
+    max-height: 160px;
+    min-height: 150px;
+    max-width: 160px;
+    min-width: 150px;
+
+    box-shadow: 0.5vh 0.5vh 9px rgb(225, 225, 225), 
+            -3px -3px 9px rgb(213, 213, 213);
+}
+
+.appFace:hover{
+    transform: scale(1.2);
+    transition-duration: 0.15s;
+
 }
 
 .appNDesc{
