@@ -17,7 +17,19 @@ section {
     font-size: 1.3em; 
 }
 
-p img {
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    margin: 5px;
     width: 200px;
     height: 200px;
+}
+
+h5 {
+    text-align: center;
 }
