@@ -7,6 +7,55 @@
         <link rel="stylesheet" href="Frontend/css/navbar.css">
         <!--Bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script>
+        function onSubmit(){
+          var Name = document.getElementById("name").value;
+          var Gpa = document.getElementById("gpa").value;
+          var Major = document.getElementById("major").value;
+          var Date = document.getElementById("date").value;
+          var GradYear = document.getElementById("grad").value;
+          var Email = document.getElementById("email").value;
+         alert(Name + " " + Gpa+ " "+ Major + " " + " " + Date + " " + GradYear + " " + Email);//Team + " " + Email
+          //var Team = document.getElementById("team").value;
+        }
+        function formValidation(){
+
+          var Gpa = document.getElementById("gpa");
+          var Major = document.getElementById("major");
+          var Date = document.getElementById("date");
+          var GradYear = document.getElementById("grad");
+          var Team = document.getElementById("team");
+          var Email = document.getElementById("email");
+        //var umsex = document.registration.msex;
+        //var ufsex = document.registration.fsex;
+        /*  switch(team){
+            case Web:
+            case Mobile:
+            default:
+          }*/
+          if(userid_validation(uid,5,12)){
+            if(passid_validation(passid,7,12)){
+              if(allLetter(uname)){
+                if(alphanumeric(uadd)){
+                  if(countryselect(ucountry)){
+                    if(allnumeric(uzip)){
+        if(ValidateEmail(uemail))
+        {
+        if(validsex(umsex,ufsex))
+        {
+        }
+        }
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          return false;
+        }
+        </script>
     </head>
     <body>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -24,29 +73,29 @@
              <div class="content">
                <form action="#">
                  <div class="user-details">
-                   <div class="input-box">
+                   <div class="input-box" >
                      <span class="details">Full Name</span>
-                     <input type="text" placeholder="Enter your name" required>
+                     <input type="text" placeholder="Enter your name" id = "name"required>
                    </div>
                    <div class="input-box">
                      <span class="details">Date</span>
-                     <input type="text" placeholder="Enter the date" required>
+                     <input type="text" placeholder="Enter the date" id = "date"required>
                    </div>
                    <div class="input-box">
                      <span class="details">Email</span>
-                     <input type="text" placeholder="Enter your email" required>
+                     <input type="text" placeholder="Enter your email" id = "email"required>
                    </div>
                    <div class="input-box">
                      <span class="details">GPA</span>
-                     <input type="text" placeholder="Enter your gpa" required>
+                     <input type="text" placeholder="Enter your gpa" id = "gpa"required>
                    </div>
                    <div class="input-box">
                      <span class="details">Major</span>
-                     <input type="text" placeholder="Enter your major" required>
+                     <input type="text" placeholder="Enter your major" id = "major"required>
                    </div>
                    <div class="input-box">
                      <span class="details">Grad Year</span>
-                     <input type="text" placeholder="Confirm your grad date" required>
+                     <input type="text" placeholder="Confirm your grad date" id = "grad"required>
                    </div>
                  </div>
                  <div class="gender-details">
@@ -70,7 +119,7 @@
                    </div>
                  </div>
                  <div class="button">
-                   <input type="submit" value="Submit">
+                   <input onclick = "onSubmit()"type="submit" value="Submit">
                  </div>
                </form>
              </div>
