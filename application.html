@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<head>
+    <head>
         <title>Join Us - Pirate's AppDev</title>
         <link rel="icon" href="logo.png">
         <link rel="stylesheet" href="Frontend/css/application.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,300" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="Frontend/css/navbar.css">
-
         <!--Bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</head>
-
-<body>
-    <nav class="navbar-fixed-top bgcolor">
-        <div class="topnav">
+    </head>
+    <body>
+        <nav class="navbar-fixed-top bgcolor">
+          <div class="topnav">
             <a>
             <h3 style="font-weight: bold;">
                 <img src="images/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
@@ -26,59 +25,109 @@
                 <a href="application.html" class="nav-link">JOIN US!</a>
             </div>
             </div>
-    </nav>
-
-    <section>
+          </nav>
         <div id="description">
             <div class="title">
                 <h1 style="font-size: 1.5em; font-weight: bold;">Join Us Now!</h1>
             </div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan vestibulum ligula, at dapibus nisi pharetra nec. Nulla sed pharetra tellus, et elementum nulla. Phasellus pellentesque tellus mollis, dignissim lorem non, pulvinar felis. Quisque ut fringilla nibh. Suspendisse iaculis urna sed quam laoreet tincidunt. Ut ac nulla fermentum, porta dolor sit amet, varius dolor. Praesent accumsan orci quis eros accumsan fermentum eu non nisi. Duis ac lacus vitae sapien convallis elementum id vel metus. Donec eu dui a velit aliquet eleifend vitae id massa.
-                Integer vitae urna condimentum,
-            </p>
-            <div class="text-center">
-                <button type="button" class="btn btn-primary">Website Team Description</button>
-                <button type="button" class="btn btn-primary">Mobile Team Description</button>
-            </div>
         </div>
-    <form>
-      <div class = "Name">
-        <textarea name = "text-input">Name</textarea>
-      </div>
-    </form>
-    <form>
-      <div class = "Date">
-        <textarea name = "text-input">Date</textarea>
-      </div>
-      <div class = "Resume">
-        <textarea name = "text-input">Resume Link</textarea>
-      </div>
-      <div class = "team">
-        <textarea name = "text-input">Mobile, Web or both</textarea>
-      </div>
-      <div class = "major">
-        <textarea name = "text-input">Major</textarea>
-      </div>
-      <div class = "grad">
-        <textarea name = "text-input">Grad Year</textarea>
-      </div>
-      <div class = "GPA">
-        <textarea name = "text-input">GPA</textarea>
-      </div>
-      <div class = "prog">
-          <textarea name = "text-input">Enter the tech skills you have</textarea>
-      </div>
-      <div class = "dec">
-          <textarea name = "text-input">Tell us about yourself</textarea>
-      </div>
-      <div = class "SUBMIT">
-        <button type = "submit">SUBMIT</button>
-      </div>
-    </form>
+      <form>
+        <fieldset>
+          <legend><span class  = "section">1</span>Basic Info</legend>
+        <label class = "" for="name">Name:</label>
+        <input type = "text" name = "name" value = "">
 
-</section>
+        <label class = "" for="GPA">GPA:</label>
+        <input type = "text" name = "GPA" value = "">
 
-</body>
+        <label class = "" for="email">Email:</label>
+        <input type = "email" name = "email" value = "Email">
 
+        <label>Which Team?</label>
+
+        <input type = "radio" name = "Team" value = "Web">
+        <label class = "light" for="Web">Website Team</label>
+
+        <input type = "radio" name = "Team" value = "Mobile">
+        <label class = "light" for="Mobile">Mobile Team</label>
+
+        <input type = "radio" name = "Team" value = "Both">
+        <label class = "light" for="Both">Both</label>
+
+      </fieldset>
+      <fieldset>
+        <legend><span class = "section">2</span>Your Summary</legend>
+
+        <label class = "" for = "describe">Tell us about yourself!</label>
+        <textarea name ="describe"></textarea>
+
+        <label for="Major">Class:</label>
+        <select>
+            <option value = "JS">Freshman</option>
+            <option value = "HTML">Sophomore</option>
+            <option value = "CSS">Junior</option>
+            <option value = "N/A">Senior</option>
+            <option value = "N/A">Grad Student</option>
+        </select>
+
+        <label for = "prog">Skills:</label>
+
+          <input type = "checkbox" value = "JS" name = "Skills">
+          <label class ="light" for="JavaScript">JavaScript</label>
+
+          <input type = "checkbox" value = "HT" name = "Skills">
+          <label class ="light" for="HTML">HTML</label>
+
+          <input type = "checkbox" value = "CS" name = "Skills">
+          <label class ="light" for="CSS">CSS</label>
+
+          <input type = "checkbox" value = "Jav" name = "Skills">
+          <label class ="light" for="Java">Java</label>
+
+          <input type = "checkbox" value = "Pyt" name = "Skills">
+          <label class ="light" for="Python">Python</label>
+
+          <input type = "checkbox" value = "ANd" name = "Skills">
+          <label class ="light" for="Android">Android</label>
+
+          <input type = "checkbox" value = "HT" name = "Skills">
+          <label class ="light" for="IOS">IOS</label>
+
+    </fieldset>
+
+    <button type = "submit">SUBMIT</button>
+  </form>
+    </body>
 </html>
+<!--
+<div class = "Name">
+  <textarea name = "text-input">Name</textarea>
+</div>
+<div class = "Date">
+  <textarea name = "text-input">Date</textarea>
+</div>
+<div class = "Resume">
+  <textarea name = "text-input">Resume Link</textarea>
+</div>
+<div class = "team">
+  <textarea name = "text-input">Mobile, Web or both</textarea>
+</div>
+<div class = "major">
+  <textarea name = "text-input">Major</textarea>
+</div>
+<div class = "grad">
+  <textarea name = "text-input">Grad Year</textarea>
+</div>
+<div class = "GPA">
+  <textarea name = "text-input">GPA</textarea>
+</div>
+<div class = "prog">
+    <textarea name = "text-input">Enter the tech skills you have</textarea>
+</div>
+<div class = "dec">
+    <textarea name = "text-input">Tell us about yourself</textarea>
+</div>
+<div = class "SUBMIT">
+  <button type = "submit">SUBMIT</button>
+</div>
+-->
