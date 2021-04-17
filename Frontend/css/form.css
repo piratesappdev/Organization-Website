@@ -3,11 +3,11 @@ html {
 }
 body {
   height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 10px;
-    background-image: linear-gradient(#FFFFFF, rgb(13, 39, 155));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+background-image: linear-gradient(#FFFFFF, rgb(13, 39, 155));
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -15,6 +15,9 @@ padding: 10px;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
+}
+.navbar-fixed-top-bgcolor .topnav .topnav-right{
+  color: black;
 }
 .container{
   max-width: 700px;
@@ -147,6 +150,7 @@ form .user-details .input-box{
     flex-direction: column;
   }
 }
+
 
 /*
 *{box-sizing: border-box;}
