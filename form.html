@@ -1,17 +1,105 @@
 <!DOCTYPE html>
-  <head>
-    <title>Pirate's AppDev</title>
-    <link rel="stylesheet" href="Frontend/css/form.css">
-    <link rel="icon" href="logo.png">
+    <head>
+        <title>Join Us - Pirate's AppDev</title>
+        <link rel="icon" href="logo.png">
+        <link rel="stylesheet" href="Frontend/css/form.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,300" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="Frontend/css/navbar.css">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+      <a href="application.html"><button type="button" class="btn btn-dark">Go Back</button></a>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <nav class="navbar-fixed-top bgcolor">
+          <div class="topnav">
+            <a>
+            <h3 style="font-weight: bold;">
+                <img src="images/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+                Pirate's AppDev
+            </h3>
+            </a>
+            <div class="topnav-right">
+                <a href="index.html" class="nav-link">HOME</a>
+                <a href="index.html" class="nav-link">ABOUT US</a>
+                <a href="team.html" class="nav-link">TEAM</a>
+                <a href="apps.html" class="nav-link">APPS</a>
+                <a href="application.html" class="nav-link">JOIN US!</a>
+            </div>
+            </div>
+          </nav>
+        <div id="description">
+            <div class="title">
+                <h1 style="font-size: 1.5em; font-weight: bold;">Join Us Now!</h1>
+            </div>
+        </div>
+      <form>
+        <fieldset>
+          <legend><span class  = "section">1</span>Basic Info</legend>
+        <label class = "" for="name">Name:</label>
+        <input type = "text" name = "name" value = "">
 
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
-  </head>
-  <body>
-    <a href="application.html"><button type="button" class="btn btn-dark">Go Back</button></a>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>  
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+        <label class = "" for="GPA">GPA:</label>
+        <input type = "text" name = "GPA" value = "">
+
+        <label class = "" for="email">Email:</label>
+        <input type = "email" name = "email" value = "Email">
+
+        <label>Which Team?</label>
+
+        <input type = "radio" name = "Team" value = "Web">
+        <label class = "light" for="Web">Website Team</label>
+
+        <input type = "radio" name = "Team" value = "Mobile">
+        <label class = "light" for="Mobile">Mobile Team</label>
+
+        <input type = "radio" name = "Team" value = "Both">
+        <label class = "light" for="Both">Both</label>
+
+      </fieldset>
+      <fieldset>
+        <legend><span class = "section">2</span>Your Summary</legend>
+
+        <label class = "" for = "describe">Tell us about yourself!</label>
+        <textarea name ="describe"></textarea>
+
+        <label for="Major">Class:</label>
+        <select>
+            <option value = "JS">Freshman</option>
+            <option value = "HTML">Sophomore</option>
+            <option value = "CSS">Junior</option>
+            <option value = "N/A">Senior</option>
+            <option value = "N/A">Grad Student</option>
+        </select>
+
+        <label for = "prog">Skills:</label>
+
+          <input type = "checkbox" value = "JS" name = "Skills">
+          <label class ="light" for="JavaScript">JavaScript</label>
+
+          <input type = "checkbox" value = "HT" name = "Skills">
+          <label class ="light" for="HTML">HTML</label>
+
+          <input type = "checkbox" value = "CS" name = "Skills">
+          <label class ="light" for="CSS">CSS</label>
+
+          <input type = "checkbox" value = "Jav" name = "Skills">
+          <label class ="light" for="Java">Java</label>
+
+          <input type = "checkbox" value = "Pyt" name = "Skills">
+          <label class ="light" for="Python">Python</label>
+
+          <input type = "checkbox" value = "ANd" name = "Skills">
+          <label class ="light" for="Android">Android</label>
+
+          <input type = "checkbox" value = "HT" name = "Skills">
+          <label class ="light" for="IOS">IOS</label>
+
+    </fieldset>
+
+    <button type = "submit">SUBMIT</button>
+  </form>
+    </body>
 </html>
