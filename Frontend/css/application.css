@@ -27,7 +27,7 @@ form{
   border-radius: 8px;
 }
 input[type="text"],
-input[tyye="email"],
+input[type="email"],
 textarea,
 select{
   background: rgba(255,255,255,0.1);
