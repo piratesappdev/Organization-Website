@@ -1,11 +1,36 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
 
+body {
+ 
+  /*font-family: Arial;*/
+  /*text-align: left;*/
+  /*font-size: 1.2em;*/
 
-.title {
+}
+
+h4 a{   
+    text-decoration: none;
+}
+
+.AppsTitle {
     font-weight: bold; 
     font-size: 3.5em;  
     margin-top: -60px; 
     color: #707070; 
     padding-bottom: 20px; 
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: rgba(168, 177, 188, 0.866) !important;
+    transition: background-color 200ms linear;
+}
+  
+.navbar-fixed-top.scrolled .nav-link {
+    color:#555;
+}
+  
+.bgcolor.scrolled {
+    background-color: green; 
 }
 
 .aT{
@@ -47,12 +72,9 @@ section {
 .appDescription{
     width: 50vw; 
     margin: 100px;
-    margin-left: 90gitpx;
+    margin-left: 90px;
+    margin-top: 27px;
     font-size: medium;
-}
-
-h3{
-    margin-left: 2vw;
 }
 
 .appFace{
