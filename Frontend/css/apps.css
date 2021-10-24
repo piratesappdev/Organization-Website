@@ -1,4 +1,10 @@
+.topnav {
+    background-color: whitesmoke;
+    opacity: 0.98;
 
+    box-shadow: 0.5vh 0.5vh 9px rgb(225, 225, 225), 
+            -3px -3px 9px rgb(213, 213, 213);
+}
 
 .title {
     font-weight: bold; 
